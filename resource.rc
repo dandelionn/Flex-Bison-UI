@@ -1,0 +1,82 @@
+#include "resource.h"
+
+ID_MAIN            ICON DISCARDABLE    "charlie_chaplin.ico"
+
+ID_BMP_TOOLBAR   BITMAP     "icons/all-icons6.bmp"
+
+// Menu
+IDR_MAINMENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                        ID_FILE_SAVE
+        MENUITEM "Save all",                     ID_FILE_SAVEALL
+        MENUITEM "Save &As...",                 ID_FILE_SAVEAS, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_FILE_CLOSE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Edit", GRAYED
+    BEGIN
+        MENUITEM "C&ut",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+    END
+    POPUP "&Window", GRAYED
+    BEGIN
+        MENUITEM "&Tile",                       ID_MAINMDI_WINDOWTILE
+        MENUITEM "&Cascade",                    ID_MAINMDI_WINDOWCASCADE
+    END
+    POPUP "Font", GRAYED
+    BEGIN
+        MENUITEM "zoom +",                ID_FONT_PLUS
+        MENUITEM "zoom -",                ID_FONT_MINUS
+    END
+    POPUP "Text Color"
+    BEGIN
+        MENUITEM "Yellow",                    ID_CHANGE_COLOR
+        MENUITEM "Green",                    ID_CHANGE_COLOR1
+    END
+END
+
+//String table
+STRINGTABLE DISCARDABLE
+BEGIN
+    ID_MAIN       "Some Text"
+    ID_CAPTION    "Flex-Bison UI"
+END
+
+
+//Dialog File Opener
+IDD_FILEOPEN DIALOG DISCARDABLE 20, 20, 178, 60
+STYLE WS_CAPTION | WS_POPUPWINDOW
+CAPTION  "File Opener"
+FONT 8, "Tahoma"
+BEGIN
+     CTEXT          "Introduce the name of the file: ""example.extension""", IDC_STATIC, 5, 5, 170, 20
+     EDITTEXT       ID_EDITTEXT1, 15, 20, 150, 15
+     DEFPUSHBUTTON   "OK", IDOKOPEN, 60, 40, 50, 14
+END
+
+IDD_FILESAVEAS DIALOG DISCARDABLE 20, 20, 178, 60
+STYLE WS_CAPTION | WS_POPUPWINDOW
+CAPTION  "File Saver"
+FONT 8, "Tahoma"
+BEGIN
+     CTEXT          "Introduce the name of the file: ""example.extension""", IDC_STATIC, 5, 5, 170, 20
+     EDITTEXT       ID_EDITTEXT2, 15, 20, 150, 15
+     DEFPUSHBUTTON   "OK", IDOKSAVEAS, 60, 40, 50, 14
+END
+
+IDD_FILENEW DIALOG DISCARDABLE 20, 20, 178, 60
+STYLE WS_CAPTION | WS_POPUPWINDOW
+CAPTION  "File New"
+FONT 8, "Tahoma"
+BEGIN
+     CTEXT          "Introduce the name of the file: ""example.extension""", IDC_STATIC, 5, 5, 170, 20
+     EDITTEXT       ID_EDITTEXT3, 15, 20, 150, 15
+     DEFPUSHBUTTON   "OK", IDOKNEW, 60, 40, 50, 14
+END

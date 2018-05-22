@@ -1,0 +1,2 @@
+scopul principal: eliminarea redundantei datelor, si facilitarea procesului de actualizare a bazei de date.
+FN1

@@ -1,0 +1,200 @@
+# depslib dependency file v1.0
+1466857688 source:d:\programare\flex_bison ui\flex-bison ui\main.cpp
+	"main.h"
+	<string>
+	<iostream>
+
+1465065508 d:\programare\flex_bison ui\flex-bison ui\main.h
+	<sstream>
+	<windows.h>
+	"WinClass.h"
+	"WinSimpleClass.h"
+	"WinMaker.h"
+	"ResString.h"
+	"resource.h"
+	<commctrl.h>
+	<fstream>
+
+1456769278 d:\programare\flex_bison ui\flex-bison ui\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456769363 d:\programare\flex_bison ui\flex-bison ui\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456768911 d:\programare\flex_bison ui\flex-bison ui\resstring.h
+	<windows.h>
+
+1456769295 d:\programare\flex_bison ui\flex-bison ui\winmaker.h
+	"WinClass.h"
+
+1465059986 d:\programare\flex_bison ui\flex-bison ui\resource.h
+	<windows.h>
+
+1464020502 source:d:\programare\flex_bison ui\flex-bison ui\resource.rc
+	"resource.h"
+
+1463420744 source:d:\programare\flex_bison ui\flex-bison ui\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456767523 source:d:\programare\flex_bison ui\flex-bison ui\winmaker.cpp
+	"WinMaker.h"
+
+1447492042 source:d:\programare\flex_bison ui\flex-bison ui\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1465066810 source:d:\programare\flex_bison ui\flex-bison ui\function.cpp
+	"function.h"
+
+1465068078 d:\programare\flex_bison ui\flex-bison ui\function.h
+	<windows.h>
+	"resource.h"
+
+1464024102 source:d:\programare\flex_bison ui\test\flex-bison ui\resource.rc
+	"resource.h"
+
+1465063586 d:\programare\flex_bison ui\test\flex-bison ui\resource.h
+	<windows.h>
+
+1463424344 source:d:\programare\flex_bison ui\test\flex-bison ui\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456772878 d:\programare\flex_bison ui\test\flex-bison ui\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456772963 d:\programare\flex_bison ui\test\flex-bison ui\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456772511 d:\programare\flex_bison ui\test\flex-bison ui\resstring.h
+	<windows.h>
+
+1456771123 source:d:\programare\flex_bison ui\test\flex-bison ui\winmaker.cpp
+	"WinMaker.h"
+
+1456772895 d:\programare\flex_bison ui\test\flex-bison ui\winmaker.h
+	"WinClass.h"
+
+1447495642 source:d:\programare\flex_bison ui\test\flex-bison ui\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1466789353 source:d:\programare\flex_bison ui\test\flex-bison ui\main.cpp
+	"main.h"
+	<string>
+	<iostream>
+
+1465069108 d:\programare\flex_bison ui\test\flex-bison ui\main.h
+	<sstream>
+	<windows.h>
+	"WinClass.h"
+	"WinSimpleClass.h"
+	"WinMaker.h"
+	"ResString.h"
+	"resource.h"
+	<commctrl.h>
+	<fstream>
+
+1466789353 source:d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\main.cpp
+	"main.h"
+	<string>
+	<iostream>
+
+1465069108 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\main.h
+	<sstream>
+	<windows.h>
+	"WinClass.h"
+	"WinSimpleClass.h"
+	"WinMaker.h"
+	"ResString.h"
+	"resource.h"
+	<commctrl.h>
+	<fstream>
+
+1456772878 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456772963 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456772511 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\resstring.h
+	<windows.h>
+
+1456772895 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winmaker.h
+	"WinClass.h"
+
+1465063586 d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\resource.h
+	<windows.h>
+
+1464024102 source:d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\resource.rc
+	"resource.h"
+
+1463424344 source:d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456771123 source:d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winmaker.cpp
+	"WinMaker.h"
+
+1447495642 source:d:\programare\flex_bison ui\backup flex-bison + maximize fix\flex-bison ui\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1466857688 source:d:\programare\flex_bison ui\backup\flex-bison ui\main.cpp
+	"main.h"
+	<string>
+	<iostream>
+
+1465065508 d:\programare\flex_bison ui\backup\flex-bison ui\main.h
+	<sstream>
+	<windows.h>
+	"WinClass.h"
+	"WinSimpleClass.h"
+	"WinMaker.h"
+	"ResString.h"
+	"resource.h"
+	<commctrl.h>
+	<fstream>
+
+1456769278 d:\programare\flex_bison ui\backup\flex-bison ui\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456769363 d:\programare\flex_bison ui\backup\flex-bison ui\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456768911 d:\programare\flex_bison ui\backup\flex-bison ui\resstring.h
+	<windows.h>
+
+1456769295 d:\programare\flex_bison ui\backup\flex-bison ui\winmaker.h
+	"WinClass.h"
+
+1465059986 d:\programare\flex_bison ui\backup\flex-bison ui\resource.h
+	<windows.h>
+
+1464020502 source:d:\programare\flex_bison ui\backup\flex-bison ui\resource.rc
+	"resource.h"
+
+1463420744 source:d:\programare\flex_bison ui\backup\flex-bison ui\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456767523 source:d:\programare\flex_bison ui\backup\flex-bison ui\winmaker.cpp
+	"WinMaker.h"
+
+1447492042 source:d:\programare\flex_bison ui\backup\flex-bison ui\winsimpleclass.cpp
+	"WinSimpleClass.h"
+

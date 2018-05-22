@@ -1,0 +1,28 @@
+%{
+#include <iostream>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+extern FILE* yyin;
+extern FILE* yyout;
+
+%}
+%%
+\n          {numline++; numchar+=2;}
+[^ \t\n]+   {numword++; numchar+=yyleng;}
+.           {numchar++;}
+%%
+main()
+{
+    //yyin = fopen("file_input.txt","r");
+    //yyout = fopen("file_output.txt","w");
+    yylex();
+
+    printf("Numarul de caractere = %d\n", numchar);
+    printf("Numarul de cuvinte= %d\n", numword);
+    printf("Numarul de linii = %d\n", numline);
+
+    
+    //exit(0);
+}

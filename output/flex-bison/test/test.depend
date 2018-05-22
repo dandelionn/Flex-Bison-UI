@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1463840674 source:c:\users\paul\desktop\flex bison\file_yacc.tab.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	"include.h"
+	<stddef.h>
+	<libintl.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	<stdlib.h>
+	<stdio.h>
+
+1463232379 c:\users\paul\desktop\flex bison\include.h
+
+1463233068 source:c:\users\paul\desktop\flex bison\interpreter.c
+	<stdio.h>
+	"include.h"
+	"file_yacc.tab.h"
+
+1463840674 c:\users\paul\desktop\flex bison\file_yacc.tab.h
+
+1463840670 source:c:\users\paul\desktop\flex bison\lex.yy.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<inttypes.h>
+	<stdlib.h>
+	"include.h"
+	"file_yacc.tab.h"
+	<unistd.h>
+
